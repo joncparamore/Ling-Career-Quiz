@@ -3,8 +3,12 @@ const careers = ["Academia", "Speech Pathology", "TESOL", "Natural Language Proc
 
 const questions = [
     {
-        question: "Do you enjoy programming and working with languages?",
-        answers: { "Yes": "Natural Language Processing", "No": "Other" }
+        question: "I like to read highly technical books and articles on topics that interest me.",
+        answers: { "Strongly Agree: I love exploring the fine details of a topic that interests me.",
+      "Agree: I like diving deeply into a topic but get bored if I do it too much.",
+      "Neutral: I have no strong feelings toward reading technical books and papers.",
+      "Disagree: I try to avoid technical reading but can do it if I have to.",
+      "Strongly Disagree: I hate reading highly technical books and papers, regardless of the topic." }
     },
     {
         question: "Do you like helping others improve their speech?",
