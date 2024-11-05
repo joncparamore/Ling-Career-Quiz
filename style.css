@@ -44,3 +44,21 @@ button {
     height: 100%;
     background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
 }
+
+.quiz-button {
+    display: block; /* Makes the button a block element, allowing it to center */
+    margin: 20px auto; /* Centers the button horizontally and adds spacing */
+    padding: 15px 30px; /* Makes the button larger by adding padding */
+    font-size: 18px; /* Increases font size */
+    font-weight: bold; /* Makes the text bold */
+    color: #fff; /* Text color */
+    background-color: #0073e6; /* Background color (adjust as needed) */
+    border: none; /* Removes the default border */
+    border-radius: 8px; /* Rounds the corners */
+    cursor: pointer; /* Changes the cursor to a pointer */
+    transition: background-color 0.3s ease; /* Smooth color transition on hover */
+}
+
+.quiz-button:hover {
+    background-color: #005bb5; /* Darkens button color on hover */
+}
